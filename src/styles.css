@@ -1,0 +1,33 @@
+body {
+  background-color: #b8f5a4;
+}
+
+/* Styles buttton with className: x */
+.x {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.x:hover {
+  background-color: #0056b3;
+}
+.x:active {
+  background-color: #003d80;
+}
+.x:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
